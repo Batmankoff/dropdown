@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+    <html lang="ru">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Выпадающий список</title>
+      </head>
+      <body>
+        <div class="wrapper">
+          <div class="dropdown">
+            <button class="dropdownButton" onclick="toggleDropdown()">
+              <img
+                class="dropdownAvatar"
+                src="images/avatar.jpeg"
+                alt="аватарка"
+              />
+              <img
+                class="dropdownArrow"
+                src="images/arrow.svg"
+                alt="Icon: arrow"
+              />
+            </button>
+
+            <div class="dropdownContent" id="dropdownMenu">
+              <ul class="dropdownListIcon">
+                <li class="dropdownItemIcon">
+                  <div class="dropdownIcon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <circle cx="12" cy="7" r="4.5" stroke="#757575" />
+                      <path
+                        d="M3.5 21.5v-4.34C3.5 15.4 7.3 14 12 14s8.5 1.41 8.5 3.16v4.34"
+                        stroke="#757575"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </div>
+                  <a class="dropdownLink" href="#">Profile</a>
+                </li>
+                <li class="dropdownItemIcon">
+                  <div class="dropdownIcon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M6.44 6.69h0a1.5 1.5 0 0 1 1.06-.44h9c.4 0 .78.16 1.06.44l.35-.35-.35.35c.28.28.44.66.44 1.06v14l-5.7-4.4-.3-.23-.3.23-5.7 4.4v-14c0-.4.16-.78.44-1.06z"
+                        stroke="#757575"
+                      />
+                      <path
+                        d="M12.5 2.75h-8a2 2 0 0 0-2 2v11.5"
+                        stroke="#757575"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </div>
+                  <a class="dropdownLink" href="#">Library</a>
+                </li>
+                <li class="dropdownItemIcon">
+                  <div class="dropdownIcon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.75 21.5h14.5c.14 0 .25-.11.25-.25V2.75a.25.25 0 0 0-.25-.25H4.75a.25.25 0 0 0-.25.25v18.5c0 .14.11.25.25.25z"
+                        stroke="#757575"
+                      />
+                      <path
+                        d="M8 8.5h8M8 15.5h5M8 12h8"
+                        stroke="#757575"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </div>
+                  <a class="dropdownLink" href="#">Stories </a>
+                </li>
+                <li class="dropdownItemIcon">
+                  <div class="dropdownIcon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M2.75 19h4.5c.14 0 .25-.11.25-.25v-6.5a.25.25 0 0 0-.25-.25h-4.5a.25.25 0 0 0-.25.25v6.5c0 .14.11.25.25.25zM9.75 19h4.5c.14 0 .25-.11.25-.25V8.25a.25.25 0 0 0-.25-.25h-4.5a.25.25 0 0 0-.25.25v10.5c0 .14.11.25.25.25zM16.75 19h4.5c.14 0 .25-.11.25-.25V4.25a.25.25 0 0 0-.25-.25h-4.5a.25.25 0 0 0-.25.25v14.5c0 .14.11.25.25.25z"
+                        stroke="#757575"
+                      />
+                    </svg>
+                  </div>
+                  <a class="dropdownLink" href="#">Stats</a>
+                </li>
+              </ul>
+
+              <ul class="dropdownListText">
+                <li class="dropdownItemText">
+                  <a class="dropdownLink" href="#">Settings</a>
+                </li>
+                <li class="dropdownItemText">
+                  <a class="dropdownLink" href="#">Refine recommendations</a>
+                </li>
+                <li class="dropdownItemText">
+                  <a class="dropdownLink" href="#">Manage publications</a>
+                </li>
+                <li class="dropdownItemText">
+                  <a class="dropdownLink" href="#">Help</a>
+                </li>
+              </ul>
+              <ul class="dropdownListText">
+                <button class="dropdownListButton">
+                  <div class="dropdownItemOut">Sign out</div>
+                  <p class="dropdownItemEmail">email95@gmail.com</p>
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+      </body>
+    </html>
+    <script src="js/main.js"></script>
+  </body>
+</html>
